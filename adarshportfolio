@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adarsh Mishra Portfolio</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-color: rgb(255, 123, 0);
+            color: black;
+        }
+        nav{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 50px;
+            background-color: white;
+
+        }
+        nav ul{
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li{
+            list-style: none;
+            margin: 0 24px;
+
+        }
+    
+        nav ul li a{
+            text-decoration: none;
+           color:black;
+           
+        }
+           nav ul li a:hover{
+           font-size: 1.1rem;
+           color:rgb(223, 0, 0);
+        
+    }
+        .left{
+            font-size: 1.5rem;
+        }
+        .first{
+            display: flex;
+            align-items: normal;
+            justify-content: space-around;
+            margin: 70px 0; 
+            
+        }
+
+        
+        .first >div{
+            width: 35%;
+        }.leftsection{
+        
+  
+            width: 50px;
+            font-size: 2rem;
+          margin: 80px 0;
+          
+        }
+        .leftsection .btn{
+            padding: 10px 10px;
+            background-color: rgba(26, 26, 109, 0.5);
+          
+        }
+        .rightsection img{
+            width:60%;
+            margin:50px 0;
+       
+        }
+     .secondsection{
+        max-width: 80vw;
+        margin: auto;
+     }
+.secondsection{
+    font-size: 2rem;
+}
+.rightsection img{
+    width: 60%;
+    margin: right;
+}
+footer{
+background-color: rgba(238, 170, 11, 0.692);
+
+}
+.footer{
+    display: flex;
+  padding: 24px 100px;
+  justify-content: space-evenly;
+}
+.footer ul{
+    list-style: none;
+
+}
+.footer >div{
+    width: 240px;
+}
+footer .text-s{
+    text-align: center;
+    color: gray;
+    padding: 10px 0;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">Adarsh's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Service</a></li>
+                    <li><a href="/">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="first">
+            <div class="leftsection">
+                Hi, my name is Adarsh Mishra
+                <div>and I am a web developer </div>
+              <div class="buttons">
+                <button class="btn">visit Linkdln</button>
+                <button class="btn">visit Github</button>
+              </div>
+               
+            </div>
+            
+            <div class="rightsection">
+               <img src="web.png" alt="">
+            </div> 
+
+
+          
+</section>
+<section class="secondsection">
+    <h1>Past Experience</h1>
+   
+        I have no past Experience this
+        <div>is my first task which is done by</div>
+        <div>me this task is provided by bharatintern <br><br></div>
+      
+<div class="rightsection">
+   
+</div>
+</section>
+    </main>
+    <footer>
+<div class="footer">
+    <div class="footer-first">
+        <h3>Adarsh Mishra's Developer Portfolio</h3>
+    </div>
+    <div class="footer-second">
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Service</li>
+            <li>Contact</li>
+        </ul>
+    </div>
+    <div class="footer-third">
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Service</li>
+            <li>Contact</li>
+        </ul>
+    </div>
+    <div class="footer-fourth">
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Service</li>
+            <li>Contact</li>
+        </ul>
+    </div>
+    
+</div>
+<div class="text-s">
+   Copyright&#169;www.adarshmishrasportfolio.com | All rights reserved
+</div>
+    </footer>
+</body>
+</html>
